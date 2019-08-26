@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM alpine:3.10
 
 ENV ZIP_URL=https://repo.e-hentai.org/hath/HentaiAtHome_1.4.2.zip
 ENV ZIP_SHA=da25fdec0a9535b265677a230e5cf84c75f0cfe790cffc51a520cf7cf3b01b2f
