@@ -22,7 +22,6 @@ RUN curl $ZIP_URL --output HentaiAtHome.zip && \
   unzip HentaiAtHome.zip && \
   rm HentaiAtHome.zip
 
-VOLUME /opt/hath/data
 VOLUME /opt/hath/cache
 
 ENTRYPOINT ["/opt/hath/bootstrap.sh"]
