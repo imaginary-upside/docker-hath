@@ -18,3 +18,6 @@ services:
     chown 1050:1050 /mnt/hath/cache
     chmod 750 /mnt/hath/cache
     docker-compose up -d
+
+# License
+Licensed under GNU GPLv3
