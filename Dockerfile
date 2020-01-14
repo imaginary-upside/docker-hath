@@ -1,7 +1,7 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
-ENV ZIP_URL=https://repo.e-hentai.org/hath/HentaiAtHome_1.4.2.zip
-ENV ZIP_SHA=da25fdec0a9535b265677a230e5cf84c75f0cfe790cffc51a520cf7cf3b01b2f
+ENV ZIP_URL=https://repo.e-hentai.org/hath/HentaiAtHome_1.6.0.zip
+ENV ZIP_SHA=597f0ae2d114a86e021013b0146d59b1f2f8be2025bfae6b38c181515b795018
 
 RUN mkdir /opt/hath
 WORKDIR /opt/hath
